@@ -5,6 +5,20 @@
         <meta charset="utf-8">
         <meta name="theme-color" content="#ff0000">
         <title></title>
+        <script>
+            window.addEventListener('load', function() {
+              if ('serviceWorker' in navigator) {
+                navigator.serviceWorker.register('service-worker.js', { scope: 'sw.js' })
+                    .then(function(r) {
+                      console.log('registered service worker');
+                    })
+                    .catch(function(whut) {
+                      console.error('uh oh... ');
+                      console.error(whut);
+                    });
+              }
+            });
+        </script>
     </head>
     <body>
         <h1>Web Application Manifest Sample</h1>
