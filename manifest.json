@@ -24,5 +24,12 @@
   "start_url": "index.html",
   "display": "standalone",
   "orientation": "landscape",
-  "background_color": "#ff0000"
+  "background_color": "#ff0000",
+  "prefer_related_applications": true,
+  "related_applications": [
+      {
+        "platform": "play",
+        "id": "com.kouzoh.mercari"
+      }
+  ]
 }
