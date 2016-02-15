@@ -29,7 +29,7 @@
   "related_applications": [
       {
         "platform": "play",
-        "id": "com.kouzoh.mercari"
+        "id": "io.github.droidkaigi.confsched"
       }
   ]
 }
